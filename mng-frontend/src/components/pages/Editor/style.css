@@ -1,0 +1,91 @@
+.editor {
+	color: black;
+	display: flex;
+}
+
+.editor__students {
+	border: 1px solid rgb(183, 220, 255);
+	width: 100px;
+	margin-bottom: 50px;
+}
+
+.editor__teachers {
+	border: 1px solid rgb(183, 220, 255);
+	width: 100px;
+	margin-bottom: 50px;
+}
+
+.editor__catalog {
+	border: 1px solid rgb(183, 220, 255);
+	width: 100px;
+}
+
+.catalog_item {
+	cursor: pointer;
+	margin: 0;
+	padding: 5px;
+}
+.catalog_item:hover {
+	background: rgb(255, 228, 190);
+}
+
+.student_item {
+	cursor: pointer;
+	margin: 0;
+	padding: 5px;
+}
+
+.student_item:hover {
+	background: rgb(255, 228, 190);
+}
+
+.teacher_item {
+	cursor: pointer;
+	margin: 0;
+	padding: 5px;
+}
+
+.teacher_item:hover {
+	background: rgb(255, 228, 190);
+}
+
+
+
+.editor__right {
+	margin-left: 40px;
+}
+
+
+.add__input{
+  color: black;
+  border: 1px solid rgb(171, 230, 255);
+	display: block;
+	margin-bottom: 10px;
+}
+
+.add__input::placeholder{
+  color: black;
+}
+
+.addtional_states{
+	width: 50%;
+	margin: 0 auto;color: black;
+}
+
+
+.additional__item{
+	background: rgb(238, 238, 238);
+	cursor: pointer;
+	margin: 0;
+	padding: 5px;
+	display: flex;
+	align-items: baseline;
+}
+
+.adition__right{
+	margin-left: 5px;
+}
+
+.additional__item:hover {
+	background: rgb(186, 186, 186);
+}

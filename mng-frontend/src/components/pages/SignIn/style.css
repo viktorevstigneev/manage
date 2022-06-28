@@ -1,0 +1,41 @@
+.sign-in {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 700px;
+	border-radius: 10px;
+	margin: 5% auto;
+
+	text-align: center;
+}
+
+.sign-in__title{
+	color: rgb(7, 7, 178);
+	font-size: 2rem;
+}
+
+.sign-in__wrap{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.sign-in__label {
+	color: black;
+	margin-right: 20px;
+}
+
+
+.sign-in__input{
+	border: 1px solid rgb(102, 135, 157);
+	width: 100%;
+	color: black;
+
+}
+
+.sign-in__input::placeholder{
+	color: black;
+}
+
+.sign-in__button{
+	width: 100%;
+}

@@ -1,0 +1,22 @@
+.modal__window {
+	width: 100%;
+
+	margin: 0 auto;
+}
+
+.modal__title{
+	color: black;
+	text-align: center;
+}
+
+.modal__container{
+	width: 10%;
+	/* margin: 0 auto; */
+	margin-left: 10%;
+}
+
+.modal__wrapper{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}

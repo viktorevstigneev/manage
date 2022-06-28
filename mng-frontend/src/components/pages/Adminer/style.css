@@ -1,0 +1,74 @@
+.admin {
+	width: 100%;
+	margin: 0 auto;
+}
+.admin_top{
+	margin-bottom: 10px;
+}
+
+.admin__table {
+	color: black;
+	width: 60%;
+	/* height: 400px; */
+	/* overflow-y: auto; */
+}
+.admin__check-top {
+	width: 30px;
+	height: 30px;
+}
+
+.admin__wrap-top {
+	display: flex;
+	background: rgb(175, 166, 166);
+}
+
+.admin__check-top,
+.admin__item-top {
+	border-right: 1px solid black;
+	margin: 0;
+	padding: 10px;
+}
+
+.admin__item-top {
+	width: 250px;
+	overflow-x: auto;
+}
+
+.admin__check {
+	width: 30px;
+	height: 30px;
+}
+
+.admin__wrap {
+	display: flex;
+	cursor: pointer;
+}
+
+.admin__wrap:hover {
+	background: rgb(234, 234, 234);
+}
+
+.admin__item {
+	width: 250px;
+	overflow-x: auto;
+}
+
+.admin__check,
+.admin__item {
+	border-right: 1px solid black;
+	margin: 0;
+	padding: 10px;
+}
+
+.admin_input {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.add-user__form{
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

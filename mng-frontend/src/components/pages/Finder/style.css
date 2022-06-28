@@ -1,0 +1,53 @@
+.finder {
+	display: flex;
+}
+.finder__left {
+	border: 1px solid black;
+
+	margin-right: 40px;
+}
+
+.finder__input {
+	border: 1px solid black;
+	color: black;
+}
+
+.finder__input::placeholder {
+	color: black;
+}
+
+.finder__item {
+	color: black;
+	margin: 0;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.finder__item:hover {
+	background: rgb(255, 218, 173);
+}
+
+.finder__wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.finder__label {
+	color: black;
+}
+
+.finder__button {
+	margin-bottom: 20px;
+}
+
+.finded__block {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.finded {
+	color: black;
+}
